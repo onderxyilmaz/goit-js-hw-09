@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onder's Image Gallery</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+
+  <main>
+    <h1 style="text-align: center;">Onder's Image Gallery</h1>
+
+    <!-- Feedback Form sayfasına geçiş için bağlantı -->
+    <nav style="text-align: center; margin-bottom: 20px;">
+      <a href="/02-form.html" style="font-size: 1.2em; color: #007BFF; text-decoration: underline;">Go to Feedback
+        Form</a>
+    </nav>
+
+    <!-- Resim Galerisi -->
+    <ul class="gallery"
+      style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; list-style: none; padding: 0;">
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/1.jpg">
+          <img class="gallery-image" src="./img/1.jpg"
+            alt="Beyaz Çiçekler - Bu resim içerisinde beyaz çiçekler bulunuyor." width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/2.jpg">
+          <img class="gallery-image" src="./img/2.jpg"
+            alt="Göl Kenarı - Bu resim göl kenarında çekilmiş bir manzara içeriyor." width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/3.jpg">
+          <img class="gallery-image" src="./img/3.jpg"
+            alt="Gece Yıldızları - Gökyüzünde yıldızlar ve galaksi görüntüsü." width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/4.jpg">
+          <img class="gallery-image" src="./img/4.jpg" alt="Parlak Renkler - Canlı ve parlak renklerle dolu bir sahne."
+            width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/5.jpg">
+          <img class="gallery-image" src="./img/5.jpg" alt="Pastel Işıklar - Pastel renklerle bokeh efekti." width="230"
+            height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/6.jpg">
+          <img class="gallery-image" src="./img/6.jpg" alt="Sıcak Bokeh - Sıcak renklerle bokeh efekti." width="230"
+            height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/7.jpg">
+          <img class="gallery-image" src="./img/7.jpg" alt="Eski Kağıt - Eski ve hafif yıpranmış bir kağıt dokusu."
+            width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/8.jpg">
+          <img class="gallery-image" src="./img/8.jpg" alt="Tuğla Duvar - Kırmızı tuğlalardan oluşmuş bir duvar."
+            width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/9.jpg">
+          <img class="gallery-image" src="./img/9.jpg" alt="Yağmurlu Şehir - Yağmurlu bir günde şehir manzarası."
+            width="230" height="150" />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a class="gallery-link" href="./img/10.jpg">
+          <img class="gallery-image" src="./img/10.jpg" alt="Gece Işıkları - Gece ışıklarıyla dolu bokeh efekti."
+            width="230" height="150" />
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <load src="./partials/footer.html" />
+
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="./js/01-gallery.js"></script>
+</body>
+
+</html>
